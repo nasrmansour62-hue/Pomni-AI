@@ -5,20 +5,20 @@ import sub from './sub.js';
 
 /* =========== Client ========== */
 const client = new Client({
-  phoneNumber: '9779743256431', // Bot number
+  phoneNumber: '962771712689', // Bot number
   prefix: [".", "/", "!"],
   fromMe: false, 
   owners: [
   // Owner 1
-    { name: "VA", lid: "201211347034@lid", jid: "972569311531@s.whatsapp.net" },
+    { name: "VA", lid: "201211347034@lid", jid: "201211347034@s.whatsapp.net" },
   // Owner 2
-    { name: "emam", lid: "221307316789354@lid", jid: "201144480436@s.whatsapp.net" },
+    { name: "emam", lid: "201556853817@lid", jid: "201556853817@s.whatsapp.net" },
   // Owner 3
-    { name: "Sukuna", jid: "201033024135@s.whatsapp.net", lid: "50414477168824@lid" },
+    { name: "Sukuna", jid: "201211347034@s.whatsapp.net", lid: "201211347034@lid" },
   // Owner 4 
-   { name: "عمورتي", jid: "201050079089@s.whatsapp.net", lid: "51664513925368@lid" }
+   { name: "عمورتي", jid: "201211347034@s.whatsapp.net", lid: "201211347034@lid" }
   ],
-  settings: { noWelcome: false },
+  settings: {: false },
   commandsPath: './plugins'
 });
 
