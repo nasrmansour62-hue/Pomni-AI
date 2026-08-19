@@ -10,13 +10,13 @@ const client = new Client({
   fromMe: false, 
   owners: [
   // Owner 1
-    { name: "VA", lid: "201211347034@lid", jid: "201211347034@s.whatsapp.net" },
+    { name: "الدشاش", lid: "201211347034@lid", jid: "201211347034@s.whatsapp.net" },
   // Owner 2
-    { name: "emam", lid: "201556853817@lid", jid: "201556853817@s.whatsapp.net" },
+    { name: "alhwary", lid: "201556853817@lid", jid: "201556853817@s.whatsapp.net" },
   // Owner 3
-    { name: "Sukuna", jid: "201211347034@s.whatsapp.net", lid: "201211347034@lid" },
+    { name: "عزازيل", jid: "201211347034@s.whatsapp.net", lid: "201211347034@lid" },
   // Owner 4 
-   { name: "عمورتي", jid: "201211347034@s.whatsapp.net", lid: "201211347034@lid" }
+   { name: "عزازيل", jid: "201211347034@s.whatsapp.net", lid: "201211347034@lid" }
   ],
   settings: { noWelcome: false },
   commandsPath: './plugins'
@@ -33,22 +33,22 @@ if (!global.db) {
 /* =========== Config ========== */
 const { config } = client;
 config.info = { 
-  nameBot: "♡ 𝙋𝙊𝙈𝙉𝙄 🎪 〈", 
-  nameChannel: "𝐕𝐈𝐈7 ~ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 🕷️", 
-  idChannel: "120363225356834044@newsletter",
+  nameBot: "𓆩𓃵𓆩𓆣𝓚𝓷𝓲𝓰𝓱𝓽 𝓐𝓵𝓓𝓪𝓼𝓱𝓪𝓼𝓱𓆣𓆪𓂀𓆪", 
+  nameChannel: "𓆩𓃵𓆩𓆣𝓚𝓷𝓲𝓰𝓱𝓽 𝓐𝓵𝓓𝓪𝓼𝓱𝓪𝓼𝓱𓆣𓆪𓂀𓆪", 
+  idChannel: "120363419296439517@newsletter",
   urls: {
-    repo: "https://github.com/deveni0/Pomni-AI",
+    repo: "هنا رابط الريبو",
     api: "https://emam-api.web.id",
-    channel: "https://whatsapp.com/channel/0029VaQim2bAu3aPsRVaDq3v"
+    channel: "https://whatsapp.com/channel/0029Vb6VF4R3bbUwgCtJlC3U"
   },
   copyright: { 
-    pack: 'ڤـ ـ VA ـ ـا', 
-    author: 'VA'
+    pack: '𓆩𓃵𓆩𓆣𝓚𝓷𝓲𝓰𝓱𝓽 𝓐𝓵𝓓𝓪𝓼𝓱𝓪𝓼𝓱𓆣𓆪𓂀𓆪', 
+    author: '𓆩𓃵𓆩𓆣𝓚𝓷𝓲𝓰𝓱𝓽 𝓐𝓵𝓓𝓪𝓼𝓱𝓪𝓼𝓱𓆣𓆪𓂀𓆪'
   },
   images: [
-    "https://i.pinimg.com/originals/11/26/97/11269786cdb625c60213212aa66273a9.png",
-    "https://i.pinimg.com/originals/e2/21/20/e221203f319df949ee65585a657501a2.jpg",
-    "https://i.pinimg.com/originals/bb/77/0f/bb770fad66a634a6b3bf93e9c00bf4e5.jpg"
+    "هنا رابط صوره",
+    "هنا الصوره",
+    "هنا الصور "
   ]
 };
 
