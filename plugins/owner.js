@@ -1,9 +1,9 @@
 let handler = async (m, { conn, bot }) => {
-  let watermark = 'VA';
+  let watermark = '𓆩𓃵𓆩𓆣 الدشــــــاش 𓆣𓆪𓂀𓆪⁩';
   
   let quoted = {
     key: { fromMe: false, participant: '0@s.whatsapp.net', remoteJid: 'status@broadcast' },
-    message: { conversation: 'Pomni AI ❤️💙' }
+    message: { conversation: '𓆩𓃵𓆩𓆣𝓚𝓷𝓲𝓰𝓱𝓽 𝓐𝓵𝓓𝓪𝓼𝓱𝓪𝓼𝓱𓆣𓆪𓂀𓆪' }
   };
   const num = bot.config.owners[0].jid.split("@")[0];
   let vcard = `BEGIN:VCARD
@@ -19,7 +19,8 @@ END:VCARD`;
     contextInfo: {
       forwardingScore: 2023,
       externalAdReply: {
-        title: '𝑇𝛨𝛯 𝛩𝑊𝛮𝛯𝑅',
+        title: '[◇] 𝘼𝙡-𝙃𝙖𝙠𝙚𝙢 𝘼𝙡-𝘿𝙖𝙨𝙝𝙖𝙨𝙝 [◇]
+',
         body: watermark,
         sourceUrl: 'https://whatsapp.com/channel/0029Vb3UUKz3QxS3bgWmTc3x',
         thumbnailUrl: img,
